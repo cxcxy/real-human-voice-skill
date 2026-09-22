@@ -1,4 +1,4 @@
-# 活人口吻 Skill
+# 真人口吻语气.skill
 
 一个面向中文文案的个人写作 Skill。
 
@@ -48,23 +48,23 @@ Skill 会优先复用当前原文、用户样稿、聊天原话或用户明确�
 使用 GitHub CLI 克隆到 Codex Skills 目录：
 
 ```bash
-gh repo clone cxcxy/dayun-human-voice ~/.codex/skills/dayun-human-voice
+gh repo clone cxcxy/real-human-voice-skill ~/.codex/skills/real-human-voice
 ```
 
 如果已经克隆到其他位置，可以创建软链接：
 
 ```bash
-ln -s /你的仓库路径/dayun-human-voice ~/.codex/skills/dayun-human-voice
+ln -s /你的仓库路径/real-human-voice-skill ~/.codex/skills/real-human-voice
 ```
 
-安装后重新打开会话，Codex 即可识别 `$dayun-human-voice`。
+安装后重新打开会话，Codex 即可识别 `$real-human-voice`。
 
 ## 使用方式
 
 直接调用：
 
 ```text
-使用 $dayun-human-voice 优化这段文案，保留原意和事实，写得自然一点，多一点真实情绪和我的口头语，但不要表演过头。
+使用 $real-human-voice 优化这段文案，保留原意和事实，写得自然一点，多一点真实情绪和我的口头语，但不要表演过头。
 ```
 
 也可以描述需求后附上原文：
@@ -78,7 +78,7 @@ ln -s /你的仓库路径/dayun-human-voice ~/.codex/skills/dayun-human-voice
 ## 项目结构
 
 ```text
-dayun-human-voice/
+real-human-voice/
 ├── SKILL.md
 ├── README.md
 └── agents/

@@ -1,4 +1,4 @@
 interface:
-  display_name: "活人口吻"
+  display_name: "真人口吻语气.skill"
   short_description: "去掉机械工整的AI味，加入有边界的情绪、语气词和个人口头语"
-  default_prompt: "使用 $dayun-human-voice 优化这段文案，保留原意和事实，加入有依据的情绪、语气词和我真实使用的口头语，写得自然连贯、小白易懂，但不要越界或表演过头。"
+  default_prompt: "使用 $real-human-voice 优化这段文案，保留原意和事实，加入有依据的情绪、语气词和我真实使用的口头语，写得自然连贯、小白易懂，但不要越界或表演过头。"
